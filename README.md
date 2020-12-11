@@ -8,7 +8,7 @@ Our stable builds available from NuGet through the SpotifyUrl metapackage:
 - [SpotifyUrl](https://www.nuget.org/packages/SpotifyUrl)
 
 ## Compiling
-In order to compile Discord.Net, you require the following:
+In order to compile SpotifyUrl, you require the following:
 
 ### Using Visual Studio
 - [Visual Studio 2017](https://www.microsoft.com/net/core#windowsvs2017)
