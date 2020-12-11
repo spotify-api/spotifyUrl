@@ -22,7 +22,7 @@ namespace SpotifyUrl
         public string preview_url { get; set; }
         public int track_number { get; set; }
         public string uri { get; set; }
-        public object dominantColor { get; set; }
+        public string dominantColor { get; set; }
     }
     public class AlbumStruct
     {
