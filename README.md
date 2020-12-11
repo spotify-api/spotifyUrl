@@ -1,6 +1,23 @@
 # SpotifyUrl
 A spotify-url-info parser without any api key!
 
+# Example
+Getting dominant color of track
+```cs
+using System;
+using SpotifyUrl;
+
+namespace Test {
+public class Program {
+public static void Main(string[] args){
+var spotify = new UrlInfo();
+var data = await spotify.getData("https://open.spotify.com/embed/track/44I5NYJ7CGEcaLOuG2zJsU");
+Console.Write(data.dominantColor); // outputs #786B8E
+  }
+ }
+}
+```
+
 # Installation
 
 ## Stable (NuGet)
